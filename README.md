@@ -4,22 +4,34 @@
 
 <h1 align="center">MStack Public</h1>
 
-<p align="center">Standalone agent skills for improving work, onboarding to a repository, researching a claim, and explaining it clearly.</p>
+<p align="center">Standalone agent skills for planning, coding, reviewing, research, and writing.</p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-586574?style=flat-square" alt="MIT license"></a>
+  <a href="SOURCES.md"><img src="https://img.shields.io/badge/licenses-per_skill-586574?style=flat-square" alt="Licenses by skill"></a>
   <a href="https://agentskills.io/specification"><img src="https://img.shields.io/badge/format-Agent_Skills-586574?style=flat-square" alt="Agent Skills format"></a>
   <a href="#install"><img src="https://img.shields.io/badge/install-with_npx-385d88?style=flat-square" alt="Install with npx"></a>
 </p>
 
 ## Skills
 
-| Skill | Use it when | Example request |
-| --- | --- | --- |
-| [`hillclimb`](skills/hillclimb/SKILL.md) | You have a baseline and a goal that takes several attempts to reach. | “Use hillclimb to reduce the import time below two seconds without dropping records.” |
-| [`repo-onboarding`](skills/repo-onboarding/SKILL.md) | You need a trustworthy map of an unfamiliar codebase. | “Use repo-onboarding to show me how the API starts and where to add my first test.” |
-| [`gold-standard-research`](skills/gold-standard-research/SKILL.md) | A factual answer needs sources you can inspect and conclusions you can check. | “Use gold-standard-research to compare SQLite and PostgreSQL for a desktop app with one writer.” |
-| [`bro-what`](skills/bro-what/SKILL.md) | An explanation skipped the context you needed. | “Use bro-what to explain what the second database lock is waiting for.” |
+| Skill | Use it for |
+| --- | --- |
+| [`hillclimb`](skills/hillclimb/SKILL.md) | Improving a result against a baseline and regression checks |
+| [`repo-onboarding`](skills/repo-onboarding/SKILL.md) | Getting a codebase running and finding the first place to make a change |
+| [`grilling`](skills/grilling/SKILL.md) | Testing a plan before committing to it |
+| [`domain-modeling`](skills/domain-modeling/SKILL.md) | Clarifying domain terms, boundaries, and decisions |
+| [`api-and-interface-design`](skills/api-and-interface-design/SKILL.md) | Designing interface contracts, failures, and compatibility |
+| [`ponytail`](skills/ponytail/SKILL.md) | Finding the smallest complete code change |
+| [`debugging-and-error-recovery`](skills/debugging-and-error-recovery/SKILL.md) | Reproducing a failure and finding its root cause |
+| [`code-review-and-quality`](skills/code-review-and-quality/SKILL.md) | Reviewing a change for correctness, security, and performance |
+| [`documentation-and-adrs`](skills/documentation-and-adrs/SKILL.md) | Recording technical decisions and checking documentation for drift |
+| [`file-pr`](skills/file-pr/SKILL.md) | Filing or updating a concise GitHub pull request |
+| [`animate`](skills/animate/SKILL.md) | Building UI motion with reduced motion support |
+| [`review-animations`](skills/review-animations/SKILL.md) | Reviewing existing UI motion and interaction |
+| [`gold-standard-research`](skills/gold-standard-research/SKILL.md) | Checking claims against sources, calculations, and counterexamples |
+| [`bro-what`](skills/bro-what/SKILL.md) | Explaining a confusing idea with the missing context restored |
+| [`caveman`](skills/caveman/SKILL.md) | Shortening responses while keeping technical details |
+| [`unslop`](skills/unslop/SKILL.md) | Cutting filler and generic phrasing from a draft |
 
 ## Install
 
@@ -47,6 +59,6 @@ Copy the chosen directory from [`skills/`](skills/) into the skill directory you
 
 ## Credits
 
-The collection format takes cues from [TStack](https://github.com/t3dotgg/tstack), [PStack](https://github.com/cursor/plugins/tree/main/pstack), and [Matt Pocock’s skills](https://github.com/mattpocock/skills). The hillclimb skill credits its experiment workflow in the skill itself.
+See [Sources and licenses](SOURCES.md) for upstream commits and adaptations. Each included upstream skill carries its license in its own directory.
 
 The more specialized [Prompt Engineering skill](https://github.com/Majkey25/prompt-engineering-skill) has its own repository.
