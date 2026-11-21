@@ -14,6 +14,19 @@
 
 ## Skills
 
+### Frontend and browser
+
+| Skill | Use it for |
+| --- | --- |
+| [`modern-web-guidance`](skills/modern-web-guidance/SKILL.md) | Choosing compatible web platform features from current guidance |
+| [`design-taste-frontend`](skills/design-taste-frontend/SKILL.md) | Designing a clear, usable interface with an intentional layout |
+| [`browser-testing-with-devtools`](skills/browser-testing-with-devtools/SKILL.md) | Diagnosing rendering, request, console, and performance problems |
+| [`playwright`](skills/playwright/SKILL.md) | Automating a repeatable browser flow or regression test |
+| [`animate`](skills/animate/SKILL.md) | Building UI motion with reduced motion support |
+| [`review-animations`](skills/review-animations/SKILL.md) | Reviewing existing UI motion and interaction |
+
+### Engineering and delivery
+
 | Skill | Use it for |
 | --- | --- |
 | [`hillclimb`](skills/hillclimb/SKILL.md) | Improving a result against a baseline and regression checks |
@@ -22,16 +35,23 @@
 | [`domain-modeling`](skills/domain-modeling/SKILL.md) | Clarifying domain terms, boundaries, and decisions |
 | [`api-and-interface-design`](skills/api-and-interface-design/SKILL.md) | Designing interface contracts, failures, and compatibility |
 | [`ponytail`](skills/ponytail/SKILL.md) | Finding the smallest complete code change |
+| [`incremental-implementation`](skills/incremental-implementation/SKILL.md) | Implementing a change in small slices with a check for each |
 | [`debugging-and-error-recovery`](skills/debugging-and-error-recovery/SKILL.md) | Reproducing a failure and finding its root cause |
 | [`code-review-and-quality`](skills/code-review-and-quality/SKILL.md) | Reviewing a change for correctness, security, and performance |
 | [`documentation-and-adrs`](skills/documentation-and-adrs/SKILL.md) | Recording technical decisions and checking documentation for drift |
+| [`ci-cd-and-automation`](skills/ci-cd-and-automation/SKILL.md) | Building and validating CI, build, and deployment workflows |
 | [`file-pr`](skills/file-pr/SKILL.md) | Filing or updating a concise GitHub pull request |
-| [`animate`](skills/animate/SKILL.md) | Building UI motion with reduced motion support |
-| [`review-animations`](skills/review-animations/SKILL.md) | Reviewing existing UI motion and interaction |
+
+### Research and communication
+
+| Skill | Use it for |
+| --- | --- |
 | [`gold-standard-research`](skills/gold-standard-research/SKILL.md) | Checking claims against sources, calculations, and counterexamples |
 | [`bro-what`](skills/bro-what/SKILL.md) | Explaining a confusing idea with the missing context restored |
 | [`caveman`](skills/caveman/SKILL.md) | Shortening responses while keeping technical details |
 | [`unslop`](skills/unslop/SKILL.md) | Cutting filler and generic phrasing from a draft |
+| [`handoff`](skills/handoff/SKILL.md) | Giving another person or agent enough evidence to resume work |
+| [`prompt-engineering`](skills/prompt-engineering/SKILL.md) | Revising and evaluating prompts and agent instructions |
 
 ## Install
 
@@ -61,4 +81,4 @@ Copy the chosen directory from [`skills/`](skills/) into the skill directory you
 
 See [Sources and licenses](SOURCES.md) for upstream commits and adaptations. Each included upstream skill carries its license in its own directory.
 
-The more specialized [Prompt Engineering skill](https://github.com/Majkey25/prompt-engineering-skill) has its own repository.
+The [full Prompt Engineering repository](https://github.com/Majkey25/prompt-engineering-skill) has additional examples and evaluation tools.
