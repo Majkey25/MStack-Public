@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/mstack-public.webp" alt="MStack Public Skills. Four glass and metal modules in a stack." width="960">
+  <img src="assets/mstack.svg" alt="" width="64" height="64">
 </p>
 
 <h1 align="center">MStack Public</h1>
@@ -7,9 +7,9 @@
 <p align="center">Standalone agent skills for improving work, onboarding to a repository, researching a claim, and explaining it clearly.</p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-64B7DE?style=flat-square" alt="MIT license"></a>
-  <a href="https://agentskills.io/specification"><img src="https://img.shields.io/badge/format-Agent_Skills-164869?style=flat-square" alt="Agent Skills format"></a>
-  <a href="#install"><img src="https://img.shields.io/badge/install-with_npx-F5B85B?style=flat-square" alt="Install with npx"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-586574?style=flat-square" alt="MIT license"></a>
+  <a href="https://agentskills.io/specification"><img src="https://img.shields.io/badge/format-Agent_Skills-586574?style=flat-square" alt="Agent Skills format"></a>
+  <a href="#install"><img src="https://img.shields.io/badge/install-with_npx-385d88?style=flat-square" alt="Install with npx"></a>
 </p>
 
 ## Skills
